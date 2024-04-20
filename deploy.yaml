@@ -13,7 +13,7 @@ spec:
         run: nginx
     spec:
       containers:
-      - image: nginx
+      - image: jjj920217/frontend:2404200037_7
         name: nginx
         ports:
         - containerPort: 80
